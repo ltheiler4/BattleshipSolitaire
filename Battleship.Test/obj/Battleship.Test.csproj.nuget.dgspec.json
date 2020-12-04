@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Git\\MyProject\\Battleship\\Battleship.Test\\Battleship.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Git\\MyProject\\Battleship\\Battleship.Test\\Battleship.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Git\\MyProject\\Battleship\\Battleship.Test\\Battleship.Test.csproj",
+        "projectName": "Battleship.Test",
+        "projectPath": "C:\\Git\\MyProject\\Battleship\\Battleship.Test\\Battleship.Test.csproj",
+        "packagesPath": "C:\\Users\\theilel4\\.nuget\\packages\\",
+        "outputPath": "C:\\Git\\MyProject\\Battleship\\Battleship.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\theilel4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nugetprod.emea.roche.com/nuget/RMD.Calculations/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Git\\MyProject\\Battleship\\Battleship\\Battleship.csproj": {
+                "projectPath": "C:\\Git\\MyProject\\Battleship\\Battleship\\Battleship.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Git\\MyProject\\Battleship\\Battleship\\Battleship.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Git\\MyProject\\Battleship\\Battleship\\Battleship.csproj",
+        "projectName": "Battleship",
+        "projectPath": "C:\\Git\\MyProject\\Battleship\\Battleship\\Battleship.csproj"
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

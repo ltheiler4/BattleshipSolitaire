@@ -1,0 +1,22 @@
+﻿<Window x:Class="Battleship.View.Quiz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleship.View"
+        mc:Ignorable="d"
+        Title="Quiz" Width="500" Height="500" SizeToContent="WidthAndHeight" ResizeMode="NoResize">
+    <Grid RenderTransformOrigin="0.85,0.495">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="0.25*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.25*" ></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <ContentControl Content="{Binding ColumnNumberGrid}"></ContentControl>
+        <ContentControl Grid.Row="1" Grid.Column="1" Content="{Binding RowNumberGrid}"></ContentControl>
+        <ContentControl Grid.Row="1" Margin="0,5,5,0" Content="{Binding Grid}"></ContentControl>
+    </Grid>
+</Window>
