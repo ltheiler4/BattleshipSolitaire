@@ -56,21 +56,31 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\Alignment.cs" />
+    <Compile Include="Model\Config.cs" />
     <Compile Include="Model\Field.cs" />
     <Compile Include="Model\Ships\Carrier.cs" />
     <Compile Include="Model\Ships\Cruiser.cs" />
     <Compile Include="Model\Ships\Destroyer.cs" />
     <Compile Include="Model\Ships\Ship.cs" />
     <Compile Include="Model\Ships\Submarine.cs" />
+    <Compile Include="ViewModel\ConfigViewModel.cs" />
+    <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\RelayCommand.cs" />
     <Compile Include="ViewModel\NotifyPropertyChangedBaseViewModel.cs" />
     <Compile Include="ViewModel\QuizViewModel.cs" />
+    <Compile Include="View\Config.xaml.cs">
+      <DependentUpon>Config.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Configuration.xaml.cs">
       <DependentUpon>Configuration.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Quiz.xaml.cs">
       <DependentUpon>Quiz.xaml</DependentUpon>
     </Compile>
+    <Page Include="View\Config.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Configuration.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

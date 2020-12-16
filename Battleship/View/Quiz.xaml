@@ -12,11 +12,15 @@
             <ColumnDefinition Width="0.25*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.25*" ></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="15*"></RowDefinition>
+            <RowDefinition Height="20*" ></RowDefinition>
+            <RowDefinition Height="200*"></RowDefinition>
         </Grid.RowDefinitions>
-        <ContentControl Content="{Binding ColumnNumberGrid}"></ContentControl>
-        <ContentControl Grid.Row="1" Grid.Column="1" Content="{Binding RowNumberGrid}"></ContentControl>
-        <ContentControl Grid.Row="1" Margin="0,5,5,0" Content="{Binding Grid}"></ContentControl>
+        <Button x:Name="export" Margin="0,0,100,0" HorizontalAlignment="Right" Width="90" Command="{Binding RelayCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self}}" Content="Export"></Button>
+        <Button x:Name="hilfe" Margin="0,0,5,0" Width="90" HorizontalAlignment="Right" Command="{Binding RelayCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self}}" Content="Hilfe"></Button>
+        <Button x:Name="correct" Margin="0,0,195,0" Width="90" HorizontalAlignment="Right" Command="{Binding RelayCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self}}" Content="Korrigieren"></Button>
+        <ContentControl Grid.Row="1" Content="{Binding ColumnNumberGrid}" ></ContentControl>
+        <ContentControl Grid.Column="1" Grid.Row="2" Content="{Binding RowNumberGrid}"></ContentControl>
+        <ContentControl Grid.Row="2" Content="{Binding Grid}"></ContentControl>
     </Grid>
 </Window>

@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Battleship"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="300" ResizeMode="NoResize">
     <Grid>
-        
+        <Button Name="Generate" Content="Generate Quiz" Margin="50,50,50,270" Command="{Binding RelayCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self}}"></Button>
+        <Button Name="Config" Content="Config" Margin="50,150,50,170" Command="{Binding RelayCommand}" CommandParameter="{Binding RelativeSource={RelativeSource Self}}"></Button>
     </Grid>
 </Window>

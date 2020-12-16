@@ -16,3 +16,6 @@ C:\Git\MyProject\Battleship\Battleship\obj\Debug\Battleship.csproj.GenerateResou
 C:\Git\MyProject\Battleship\Battleship\obj\Debug\Battleship.csproj.CoreCompileInputs.cache
 C:\Git\MyProject\Battleship\Battleship\obj\Debug\Battleship.exe
 C:\Git\MyProject\Battleship\Battleship\obj\Debug\Battleship.pdb
+C:\Git\MyProject\Battleship\Battleship\obj\Debug\Battleship.csprojAssemblyReference.cache
+C:\Git\MyProject\Battleship\Battleship\obj\Debug\View\Config.g.cs
+C:\Git\MyProject\Battleship\Battleship\obj\Debug\View\Config.baml

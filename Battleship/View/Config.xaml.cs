@@ -10,22 +10,20 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Battleship.ViewModel;
 
-namespace Battleship
+namespace Battleship.View
 {
-    using Battleship.ViewModel;
-
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Config.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Config : Window
     {
-        public MainWindow()
+        public Config()
         {
             InitializeComponent();
-            DataContext = new MainViewModel();
+            DataContext = new ConfigViewModel();
         }
     }
 }
